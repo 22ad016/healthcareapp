@@ -10,7 +10,7 @@ def load_image(image_file):
         return base64.b64encode(image.read()).decode()
 
 # Load your local background image
-bg_image_path = r'C:/Users/ahari/OneDrive/Desktop/DL/db1.jpg'  # Updated with your image path
+bg_image_path = r'db1.jpg'  # Updated with your image path
 if os.path.exists(bg_image_path):
     bg_image = load_image(bg_image_path)
 else:
